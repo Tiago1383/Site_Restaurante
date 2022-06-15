@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Site Restaurane 1</title>
+    <!--Bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!--CDNjs-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--Meu CSS-->
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/responsive.css" />
+  </head>
+
+  <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100">
+    <!--Header design-->
+    <header>
+      <nav class="navbar navbar-expand-lg navigation-wrap">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="/imagem/logo5.png" class="img-fluid" />
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <!--<span class="navbar-toggler-icon"></span>-->
+            <i class="fas fa-stream navbar-toggler-icon"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home"
+                  >Início</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#about">Sobre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#menu">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#testimonial">Clientes</a>
+              </li>
+              <li>
+                <button class="main-btn btn btn-warning">1234 567 890</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section id="home">
+      <div class="container-fluid px-0 top-banner">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5 col-md-6">
+              <h1>LANCHES<br />TRADICIONAIS<span> ARGENTINOS</span></h1>
+              <h2>Medium 2-topping pizza</h2>
+              <p>
+                "Additional charge for premium toppings. Munumum of 2 required.
+              </p>
+              <div class="mt-4">
+                <button class="main-btn">
+                  COMPRAR<i class="fas fa-shooping-basket ps-3"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--section-2 our menu-->
+    <section class="our-menu p-4" id="menu">
+      <div class="container text-center">
+        <h3 class="pb-4">THE MENU</h3>
+        <div class="row">
+          <div class="col-6 col-sm-2 mb-2 mb-lg-0">
+            <div class="card">
+              <div class="cat-image">
+                <a class="link_category_product" href="#">
+                  <img src="./imagem/burguer.jpeg" class="img-fluid" alt="" />
+                </a>
+              </div>
+              <div class="cat-title">
+                <a href="#">Hambúrguer</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-sm-2 mb-4 mb-lg-0">
+            <div class="card">
+              <div class="cat-image">
+                <a class="link_category_product" href="#">
+                  <img src="./imagem/empanadas.jpeg" class="img-fluid" alt="" />
+                </a>
+              </div>
+              <div class="cat-title">
+                <a href="#">Empanadas</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-sm-2 mb-4 mb-lg-0">
+            <div class="card">
+              <div class="cat-image">
+                <a class="link_category_product" href="#">
+                  <img src="./imagem/sanduba.webp" class="img-fluid" alt="" />
+                </a>
+              </div>
+              <div class="cat-title">
+                <a href="#">Sanduíches</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-sm-2 mb-4 mb-lg-0">
+            <div class="card">
+              <div class="cat-image">
+                <a class="link_category_product" href="#milanesa">
+                  <img src="./imagem/milanesa1.jpeg" class="img-fluid" alt="" />
+                </a>
+              </div>
+              <div class="cat-title">
+                <a href="#">Milanesas</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-sm-2 mb-4 mb-lg-0">
+            <div class="card">
+              <div class="cat-image">
+                <a class="link_category_product" href="#">
+                  <img src="./imagem/combo.jpeg" class="img-fluid" alt="" />
+                </a>
+              </div>
+              <div class="cat-title">
+                <a href="#">Combos</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-sm-2 mb-4 mb-lg-0">
+            <div class="card">
+              <div class="cat-image">
+                <a class="link_category_product" href="#">
+                  <img src="./imagem/lasanha1.jpeg" class="img-fluid" alt="" />
+                </a>
+              </div>
+              <div class="cat-title">
+                <a href="#">Lasanha</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--section-3 about-->
+    <section id="about">
+      <div class="about-section wrapper">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-7 col-md-12 mb-lg-0 mb-5">
+              <div class="card border-0">
+                <img src="/imagem/ingredientes3.jpeg" class="img-fluid" />
+              </div>
+            </div>
+            <div class="col-lg-5 col-md-12 text-sec">
+              <h2>
+                Os melhores ingredientes: selecioandos e adquiridos de
+                produtores locais.
+              </h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio
+                asperiores amet rem molestiae, reprehenderit magnam voluptates
+                ab libero dolores unde, ullam odit ducimus debitis tenetur
+                velit? Sint laudantium amet at?
+              </p>
+              <button class="main-btn mt-4">Saiba mais</button>
+            </div>
+          </div>
+        </div>
+        <div class="container food-type">
+          <div class="row align-items-center">
+            <div class="col-lg-5 col-md-12 text-sec mb-lg-0 mb-5">
+              <h2>Nós fazemos com carinho e dedicação a sua comida.</h2>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore
+                eius animi accusamus numquam, dolore nihil optio adipisci enim
+                repellat harum aperiam beatae doloribus id rerum ex libero
+                commodi dolorem explicabo.
+              </p>
+              <ul class="list-unstyled py-3">
+                <li>Feito com amor e dedicação.</li>
+                <li>Pratos e lanches típicos argentinos.</li>
+                <li>Temperado com carinho.</li>
+              </ul>
+              <button class="main-btn mt-4">Saiba mais</button>
+            </div>
+            <div class="col-lg-7 col-md-12">
+              <div class="card border-0">
+                <img src="/imagem/quadro.jpeg.jpeg" class="img-fluid" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--section-4 explorer food-->
+    <section id="explore-food">
+      <div class="explore-food wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="text-content text-center">
+                <h2>Explore Our foods</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+                  corrupti est eos. Corrupti totam asperiores, itaque aspernatur
+                  excepturi explicabo voluptatum, beatae laborum soluta, nostrum
+                  libero quibusdam. Aliquid expedita quae consectetur?
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row pt-5">
+            <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+              <div class="card border">
+                <img src="/imagem/burguer3.jpeg" class="img-fluid" />
+                <div class="p-3">
+                  <h5>Deliciosos Hambúrgueres artesanais</h5>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quae corrupti est eos.
+                  </p>
+                  <button class="mt-2 main-btn" type="button" data-bs-toggle="modal" data-bs-target="#burguer">
+                    Read More
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+              <div class="card border">
+                <img src="/imagem/sanduiche6.jpeg" class="img-fluid" />
+                <div class="p-3">
+                  <h5>Os sanduiches mais saborosos</h5>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quae corrupti est eos.
+                  </p>
+                  <button class="mt-2 main-btn" type="button" data-bs-toggle="modal" data-bs-target="#sanduiche">Read More</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+              <div class="card border">
+                <img src="/imagem/empanadas8.jpeg" class="img-fluid" />
+                <div class="p-3">
+                  <h5>O melhor das empanadas argentinas</h5>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quae corrupti est eos.
+                  </p>
+                  <button class="mt-2 main-btn" type="button" data-bs-toggle="modal" data-bs-target="#empanadas">Read More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Section-5 Testemunho-->
+    <section id="testimonial">
+      <div class="wrapper testimonial-section">
+        <div class="container text-center">
+          <div class="text-center pb-4">
+            <h2>Testemunho</h2>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 col-lg-10 offset-lg-1">
+              <div
+                id="carouselExampleDark"
+                class="carousel slide"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-indicators">
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleDark"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleDark"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleDark"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
+                  ></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="carousel-caption">
+                      <img src="/imagem/vetor2.png" />
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Accusantium, nulla.
+                      </p>
+                      <h5>Johnatan Doe - Ux Designer</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="carousel-caption">
+                      <img src="/imagem/vetor3.png" />
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Accusantium, nulla.
+                      </p>
+                      <h5>Yohana Dalia -Front-end</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="carousel-caption">
+                      <img src="/imagem/vetor4.png" />
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Accusantium, nulla.
+                      </p>
+                      <h5>Kalir Jomés - Software Enginer</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--section-6 footer-->
+    <footer id="footer">
+      <div class="footer pt-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 text-center">
+              <div class="footer-social pb-4 text-center">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-dribbble"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <form class="newsletter">
+                <div class="d-flex">
+                  <input
+                    class="form-control"
+                    placeholder="Email Address Here"
+                    type="email"
+                  />
+                  <button class="main-btn" type="submit">Subscribe</button>
+                </div>
+              </form>
+            </div>
+            <div class="col-sm-12">
+              <div class="footer-copy">
+                <div class="copy-right text-center pt-5">
+                  <p class="text-light">2022. SITE FOOD. All rights reserved</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="burguer" tabindex="-1" aria-labelledby="explore-food" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="burguer">Hambúrguer Artesanal</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt accusamus earum provident amet culpa enim! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis, ex suscipit animi blanditiis consectetur sunt officiis dolor facere. Vel perspiciatis corporis aspernatur, facilis nemo reiciendis fuga molestias soluta amet tempore!</div>
+          <div class="modal-footer">
+            <button type="button" class="mt-2 main-btn" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="sanduiche" tabindex="-1" aria-labelledby="explore-food" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="sanduiche">Sanduíches</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt accusamus earum provident amet culpa enim! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis, ex suscipit animi blanditiis consectetur sunt officiis dolor facere. Vel perspiciatis corporis aspernatur, facilis nemo reiciendis fuga molestias soluta amet tempore!</div>
+            <div class="modal-footer">
+              <button type="button" class="mt-2 main-btn" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="empanadas" tabindex="-1" aria-labelledby="explore-food" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="empanadas">Empanadas Argentinas</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt accusamus earum provident amet culpa enim! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis, ex suscipit animi blanditiis consectetur sunt officiis dolor facere. Vel perspiciatis corporis aspernatur, facilis nemo reiciendis fuga molestias soluta amet tempore!</div>
+            <div class="modal-footer">
+              <button type="button" class="mt-2 main-btn" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!--Bibliotecas js-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+    <!--Meu js-->
+    <script src="/css/script.js"></script>
+  </body>
+</html>
